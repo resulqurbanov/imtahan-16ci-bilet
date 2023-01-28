@@ -1,0 +1,42 @@
+.Uclukart{
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://preview.colorlib.com/theme/busicol/img/banner/about_bg.png.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .cards{
+    width: 400px;
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px;
+        border-style: solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+        &:hover{
+            background-color: #28AE60;
+
+        }
+        h4{
+            width: 200px;
+            color: white;
+            text-align: center;
+        }
+        h3{
+            color: white;
+            text-align: center;
+        }
+        i{
+            font-size: 30px;
+            color: white;
+        }
+    }
+}
